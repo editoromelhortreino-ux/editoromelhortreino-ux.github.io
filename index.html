@@ -4,27 +4,32 @@
     <meta charset="UTF-8">
     <title>Links - O Melhor Treino</title>
     <style>
-        body { font-family: sans-serif; max-width: 680px; margin: 40px auto; text-align: center; padding: 20px; }
-        .link-card { border: 1px solid #ddd; padding: 20px; margin-bottom: 20px; border-radius: 8px; display: block; text-decoration: none; color: black; transition: transform 0.2s; }
-        .link-card:hover { transform: scale(1.02); }
-        .link-card.destaque { border-color: #007bff; background-color: #f8f9fa; border-width: 2px; }
-        .link-card h3 { margin: 0; }
-        h1 { color: #333; }
+        body { font-family: sans-serif; max-width: 680px; margin: 40px auto; text-align: center; padding: 20px; background-color: #f4f4f9; }
+        .link-card { border: 1px solid #ddd; padding: 15px; margin-bottom: 15px; border-radius: 8px; display: block; text-decoration: none; color: #333; background-color: #fff; transition: transform 0.2s, box-shadow 0.2s; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .link-card:hover { transform: scale(1.02); box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-color: #007bff; }
+        .link-card h3 { margin: 0; font-size: 1.1rem; }
+        h1 { color: #222; margin-bottom: 10px; }
+        p { color: #666; margin-bottom: 30px; }
+        hr { border: 0; border-top: 1px solid #eee; margin: 40px 0; }
+        .footer-links { margin-top: 20px; }
     </style>
 </head>
 <body>
     <h1>O Melhor Treino</h1>
-    <p>Todos os nossos links importantes em um só lugar.</p>
+    <p>Confira nossos últimos artigos e links importantes:</p>
 
-    <!-- LATEST_POST_START --><a href='https://omelhortreino.com.br/rosca-direta/' class='link-card destaque'><h3>Novo Artigo: Rosca direta: um manual definitivo de como realizar esse exercício</h3></a><!-- LATEST_POST_END -->
+    <!-- LATEST_POST_START -->
+    <!-- A automação vai inserir os novos links logo abaixo desta linha -->
+    <!-- LATEST_POST_END -->
 
     <hr>
-    <h2>Outros Links</h2>
-    <a href="https://omelhortreino.com.br/" class="link-card">
-        <h3>Acesse nosso Blog</h3>
-    </a>
-    <a href="https://www.instagram.com/melhor.treino/" class="link-card">
-        <h3>Siga nosso Instagram</h3>
-    </a>
+    <div class="footer-links">
+        <a href="https://omelhortreino.com.br/" class="link-card">
+            <h3>Acesse nosso Blog</h3>
+        </a>
+        <a href="https://www.instagram.com/melhor.treino/" class="link-card">
+            <h3>Siga nosso Instagram</h3>
+        </a>
+    </div>
 </body>
 </html>
